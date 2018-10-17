@@ -20,6 +20,7 @@ def validarIPPaises():
 
     execute_rb('./DIY-Firewall/lib/paises.rb')
     print("Rodou o RB")
+    print("Felippe fez uma alteração")
 
 
 schedule.every(10).seconds.do(validarIPPaises)
